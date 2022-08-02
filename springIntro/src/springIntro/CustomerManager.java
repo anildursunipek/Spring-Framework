@@ -1,8 +1,10 @@
 package springIntro;
 
-public class CustomerManager {
+public class CustomerManager implements ICustomerService {
 	
 	ICustomerDal customerDal;
+	
+	// Contructor injection
 	public CustomerManager(ICustomerDal customerDal) {
 		this.customerDal = customerDal;
 	}
