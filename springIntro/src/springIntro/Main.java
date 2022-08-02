@@ -28,5 +28,8 @@ public class Main {
 		parametre olarak girilmesi yeterli olacaktir. Kodumuz deigisme ve gelisime acik olacaktir.*/
 		
 		/*Not: Bir sinif herhangi bir implemantasyon almiyorsa yada miras almiyorsa burada bir bagimlilik var demektir. */
+		
+		// String İnjection: Url, kurumsal mail gibi attribute'lari ioc ile kontrol altina alip ilerleyen zamanlarda degistirebiliyoruz
+		// Bu ornekte db url String injection ile xml dosyasinda belirtilmistir
 	}
 }
