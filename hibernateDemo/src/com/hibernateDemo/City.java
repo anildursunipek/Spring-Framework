@@ -1,9 +1,9 @@
 package com.hibernateDemo;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
+//import javax.persistence.Column;
+//import javax.persistence.Entity;
+//import javax.persistence.Id;
+//import javax.persistence.Table;
 
 @Entity // Veri tabani nesnesi
 @Table(name="City") // Hangi tablonun uyesi oldugunu belirtir
@@ -13,16 +13,16 @@ public class City {
 	@Column(name="ID")
 	private int id;
 	
-	@Column(name="Name")
+	@Column(name="name")
 	private String name;
 	
-	@Column(name="CountryCode")
+	@Column(name="countryCode")
 	private String countryCode;
 	
-	@Column(name="District")
+	@Column(name="district")
 	private String district;
 	
-	@Column(name="Population")
+	@Column(name="population")
 	private int population;
 	
 	
